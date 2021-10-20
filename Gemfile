@@ -26,6 +26,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem "faker", "~> 2.19"
 gem 'line-bot-api'
 gem 'dotenv-rails' 
+gem 'mechanize' 
 
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible

@@ -7,7 +7,7 @@ namespace :push do
     }
 
     def text
-      "タイトル：#{Todo.last.task}\n 説明：#{Todo.last.description}"
+      "タイトル：#{Todo.last.task}\n\n 説明：#{Todo.last.description}"
     end
   
     message = {
